@@ -21,8 +21,8 @@ class Song
 
   def artist_name
     artist_info = self.artist
-    name = artist_info.name
-    name
+    artist_name = artist_info.name
+    artist_name
     binding.pry
   end
 
