@@ -6,7 +6,7 @@ class Artist
 
   @@songs = []
 
-  def initialize(name= nil)
+  def initialize(name)
     @name = name
   end
 
