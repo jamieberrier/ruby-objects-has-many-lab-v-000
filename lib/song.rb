@@ -6,7 +6,7 @@ class Song
 
   @@all = []
 
-  def initialize(name, self.artist.name= nil)
+  def initialize(name, artist.name= nil)
     @name = name
     @@all << self
     #self.artist.name = nil
@@ -21,7 +21,7 @@ class Song
   end
 
   def artist_name
-    binding.pry
+    #binding.pry
     self.artist.name
   end
 
