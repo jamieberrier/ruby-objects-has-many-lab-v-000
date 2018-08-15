@@ -10,7 +10,7 @@ class Artist
     @name = name
   end
 
-  def name
+  def name(name= nil)
     @name
   end
 
