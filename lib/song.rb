@@ -14,5 +14,10 @@ class Song
   def all
   end
 
+  def name
+  end
+
+  def artist
+  end
 
 end
