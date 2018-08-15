@@ -11,8 +11,8 @@ class Song
     @@all << self
   end
 
-  def nameend
-    
+  def name
+  end
 
   def all
     @@all
