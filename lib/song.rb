@@ -4,5 +4,9 @@ require'pry'
 class Song
   attr_accessor :artist
 
+  def initialize(name)
+    @name = name
+    #@genre = genre
+  end
 
 end
