@@ -2,8 +2,8 @@
 require 'pry'
 
 class Artist
-  attr_accesor :name
-  
+  attr_accessor :name
+
   def initialize(name)
     @name = name
 
