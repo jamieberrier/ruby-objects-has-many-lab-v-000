@@ -30,6 +30,7 @@ class Artist
 
   # is a class method that returns the total number of songs associated to all existing artists
   def self.song_count
+    @@all.length
   end
 
 end
