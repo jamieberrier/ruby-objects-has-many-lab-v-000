@@ -6,7 +6,7 @@ class Song
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name, self.artist.name= nil)
     @name = name
     @@all << self
     #self.artist.name = nil
