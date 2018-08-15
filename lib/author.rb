@@ -10,6 +10,9 @@ class Author
     @name = name
   end
 
+  def posts
+    @@posts
+  end
 
   def self.post_count
     @@posts.length
