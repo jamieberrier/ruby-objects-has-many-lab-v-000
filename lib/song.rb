@@ -11,4 +11,8 @@ class Song
     @@all << name
   end
 
+  def all
+  end
+
+
 end
