@@ -6,10 +6,10 @@ class Song
 
   @@all = []
 
-  def initialize(name, self.artist.name= "")
+  def initialize(name)
     @name = name
     @@all << self
-    #self.artist.name = nil
+    self.artist.name = ""
   end
 
   def name
