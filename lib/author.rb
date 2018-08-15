@@ -14,6 +14,11 @@ class Author
     @@posts
   end
 
+  def add_post(post)
+    @@posts << post
+    post.author = self
+  end
+
   def self.post_count
     @@posts.length
   end
