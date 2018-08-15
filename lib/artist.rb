@@ -26,7 +26,6 @@ class Artist
       song = Song.new(song_name)
       @@songs << song
       song.artist = self
-      binding.pry
   end
 
   # is a class method that returns the total number of songs associated to all existing artists
