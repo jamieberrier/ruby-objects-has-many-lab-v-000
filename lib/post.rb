@@ -2,9 +2,10 @@
 require 'pry'
 
 class Post
-  attr_accessor :name
+  attr_accessor :name, :title
 
   def initialize(title)
+    @title = title
   end
 
 
