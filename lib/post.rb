@@ -11,6 +11,10 @@ class Post
     @@all << self
   end
 
+  def title
+    @title
+  end
+
   def all
     @@all
   end
